@@ -1,0 +1,29 @@
+images { image: "scene.png" LOSSY 94; image: "silver-liquid-ripple.svg" COMP; }
+collections { group { name: "e/desktop/background"; data { item: "style" "4"; }
+parts { part { name: "scene"; mouse_events: 0; description { state: "default" 0.0; image.normal: "scene.png"; } }
+#ifdef ANIMATED
+part { name: "liquid"; mouse_events: 0;
+description { state: "default" 0.0; image.normal: "silver-liquid-ripple.svg"; rel1.relative: -0.070 0.650; rel2.relative: 1.030 1.050; color: 255 255 255 190; }
+description { state: "ripple1" 0.0; image.normal: "silver-liquid-ripple.svg"; rel1.relative: -0.050 0.628; rel2.relative: 1.050 1.040; color: 255 255 255 206; }
+description { state: "ripple2" 0.0; image.normal: "silver-liquid-ripple.svg"; rel1.relative: -0.030 0.605; rel2.relative: 1.070 1.030; color: 255 255 255 222; }
+description { state: "ripple3" 0.0; image.normal: "silver-liquid-ripple.svg"; rel1.relative: -0.010 0.583; rel2.relative: 1.090 1.020; color: 255 255 255 239; }
+description { state: "ripple4" 0.0; image.normal: "silver-liquid-ripple.svg"; rel1.relative: 0.010 0.560; rel2.relative: 1.110 1.010; color: 255 255 255 255; }
+description { state: "ripple5" 0.0; image.normal: "silver-liquid-ripple.svg"; rel1.relative: -0.010 0.583; rel2.relative: 1.090 1.020; color: 255 255 255 239; }
+description { state: "ripple6" 0.0; image.normal: "silver-liquid-ripple.svg"; rel1.relative: -0.030 0.605; rel2.relative: 1.070 1.030; color: 255 255 255 222; }
+description { state: "ripple7" 0.0; image.normal: "silver-liquid-ripple.svg"; rel1.relative: -0.050 0.628; rel2.relative: 1.050 1.040; color: 255 255 255 206; } }
+#endif
+}
+#ifdef ANIMATED
+programs {
+program { name: "liquid.0"; signal: "load"; source: ""; in: 0.75 0.0; action: STATE_SET "ripple1" 0.0; target: "liquid"; after: "liquid.1"; }
+program { name: "liquid.1";  in: 0.22 0.0; action: STATE_SET "ripple2" 0.0; target: "liquid"; after: "liquid.2"; }
+program { name: "liquid.2";  in: 0.22 0.0; action: STATE_SET "ripple3" 0.0; target: "liquid"; after: "liquid.3"; }
+program { name: "liquid.3";  in: 0.22 0.0; action: STATE_SET "ripple4" 0.0; target: "liquid"; after: "liquid.4"; }
+program { name: "liquid.4";  in: 0.22 0.0; action: STATE_SET "ripple5" 0.0; target: "liquid"; after: "liquid.5"; }
+program { name: "liquid.5";  in: 0.22 0.0; action: STATE_SET "ripple6" 0.0; target: "liquid"; after: "liquid.6"; }
+program { name: "liquid.6";  in: 0.22 0.0; action: STATE_SET "ripple7" 0.0; target: "liquid"; after: "liquid.7"; }
+program { name: "liquid.7";  in: 0.22 0.0; action: STATE_SET "default" 0.0; target: "liquid"; after: "liquid.0"; }
+program { signal: "ami,pause"; source: "*"; action: ACTION_STOP; target: "liquid.0"; target: "liquid.1"; target: "liquid.2"; target: "liquid.3"; target: "liquid.4"; target: "liquid.5"; target: "liquid.6"; target: "liquid.7"; }
+program { signal: "ami,resume"; source: "*"; after: "liquid.0"; } }
+#endif
+} }

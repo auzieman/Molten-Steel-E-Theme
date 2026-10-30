@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-30",
+  "source_repository": "auzieman/BlackKnight-E-Theme",
+  "source_head": "c62894fe33952331cd0744f2a486e34ad916886a",
+  "includes_working_tree_changes": true,
+  "origins": [
+    {
+      "source": "build/out/ami/material-pass-v3/Ami-Silver-wallpaper/silver-liquid-ripple.svg",
+      "destination": "wallpaper/silver-liquid-ripple.svg",
+      "source_sha256": "89ea0233175b72eb70594649d678c517da85f9c805f78a6401bb8c58bd1fabd4"
+    },
+    {
+      "source": "build/out/ami/material-pass-v3/Ami-Silver-wallpaper/silver-reflection.png",
+      "destination": "wallpaper/silver-reflection.png",
+      "source_sha256": "72d8a169ae0da98df381227c20c5214e39f897561e0d5fbddcd58b273dddbf6f"
+    },
+    {
+      "source": "build/out/ami/material-pass-v3/Ami-Silver-wallpaper/scene.png",
+      "destination": "wallpaper/scene.png",
+      "source_sha256": "221d604889319be9e5fd726f28249a04fb094d67e211059919d9e5c1e9a79b73"
+    },
+    {
+      "source": "build/out/ami/material-pass-v3/Ami-Silver-wallpaper/wallpaper.edc",
+      "destination": "wallpaper/wallpaper.edc",
+      "source_sha256": "11215d3ec7ca282787e420bc16d461614b9481f580402ece1c5f6c0831f143dc"
+    },
+    {
+      "source": "themes/ami/ilbm.py",
+      "destination": "source/paired-study/ilbm.py",
+      "source_sha256": "34055af2d6ce018ce46f1f89f99f29208f53d81e864ec59dd0a4e75d47956196"
+    },
+    {
+      "source": "themes/ami/render.c",
+      "destination": "source/paired-study/render.c",
+      "source_sha256": "40d9441b00e6f47c5e09b6e7f14813d5d041007d8cd1265aed914334fa20842b"
+    },
+    {
+      "source": "themes/ami/prepare.py",
+      "destination": "source/paired-study/prepare.py",
+      "source_sha256": "00bb0d521cff94635cc009089f9f7d165e56f293ce2f15717214c3da3d403ee3"
+    },
+    {
+      "source": "themes/ami/build.sh",
+      "destination": "source/paired-study/build.sh",
+      "source_sha256": "c964058a2749555b39e98af2ab424941cdc119a8d3d500d484b2040f4ac922d4"
+    },
+    {
+      "source": "themes/ami/motion/prepare-menus.py",
+      "destination": "source/paired-study/motion/prepare-menus.py",
+      "source_sha256": "9ef92e1e1d20012cd900c0e4a9944109f312565a8d6e51a9032550665699d1a4"
+    },
+    {
+      "source": "themes/ami/motion/render-wallpaper.c",
+      "destination": "source/paired-study/motion/render-wallpaper.c",
+      "source_sha256": "6f9d6f2cd1b1175088d9b189b2fa40932d726dc555cb5605e08d7972faa156a5"
+    },
+    {
+      "source": "themes/ami/motion/review.py",
+      "destination": "source/paired-study/motion/review.py",
+      "source_sha256": "8febcfa38b6c2f2793ffe3b173e32e2b99582228f0a451afb22820bd19eb28d4"
+    },
+    {
+      "source": "themes/ami/motion/review-os4.sh",
+      "destination": "source/paired-study/motion/review-os4.sh",
+      "source_sha256": "4cd72bc4b0ee2a0e05e04446d7d466807e97b29a95322361acfbf636d27db252"
+    },
+    {
+      "source": "themes/ami/motion/render.c",
+      "destination": "source/paired-study/motion/render.c",
+      "source_sha256": "0913c92bb92a48f74f5dd8bc0163a64833298fc3958c87b603c504de631fb687"
+    },
+    {
+      "source": "themes/ami/motion/build-menu.sh",
+      "destination": "source/paired-study/motion/build-menu.sh",
+      "source_sha256": "fa1611c17a431d44306af0cd546f9e47720cb85838ea5ec8a1431175c53fcd74"
+    },
+    {
+      "source": "themes/ami/motion/render-menu.c",
+      "destination": "source/paired-study/motion/render-menu.c",
+      "source_sha256": "111ca3ef50d7ee5e744d95e62920fb91f49ff755cd154c7c32b15a7ade86612e"
+    },
+    {
+      "source": "themes/ami/motion/prepare.py",
+      "destination": "source/paired-study/motion/prepare.py",
+      "source_sha256": "09f7883ab358082a0f0e577023e6e6eacacffea0e48f68a3a940afe671ad169d"
+    },
+    {
+      "source": "themes/ami/motion/prepare-shelf.py",
+      "destination": "source/paired-study/motion/prepare-shelf.py",
+      "source_sha256": "f42d9ea678bfd2d28a8ca33a031a5aacb79d6f3c950c351138297ca24571c1e2"
+    },
+    {
+      "source": "themes/ami/motion/render-shelf.c",
+      "destination": "source/paired-study/motion/render-shelf.c",
+      "source_sha256": "b00f455b5d6b3fc858bb5e59e446e35119c75890aaeb0956f4916d1ad91add36"
+    },
+    {
+      "source": "themes/ami/motion/build-material.sh",
+      "destination": "source/paired-study/motion/build-material.sh",
+      "source_sha256": "175095dfbbd3862bb02a4916da7ee5176171ea4baa6d9a18dcdc3d5260820405"
+    },
+    {
+      "source": "themes/ami/motion/prepare-material-pass.py",
+      "destination": "source/paired-study/motion/prepare-material-pass.py",
+      "source_sha256": "137c8a81852431f673862a7b1335750a399f3314d86c1be1acf3bcd63407f39f"
+    },
+    {
+      "source": "themes/ami/motion/build.sh",
+      "destination": "source/paired-study/motion/build.sh",
+      "source_sha256": "c713c6669ecdb66560963b0bd40b2aeb5451270af92b1163bfd8e7591750347e"
+    },
+    {
+      "source": "themes/ami/README.md",
+      "destination": "docs/history/baseline.md",
+      "source_sha256": "1e3cf6ef89c1f75d44c6322f4b554acc31d5783a2f08243c4365d805f1bb6d8d"
+    },
+    {
+      "source": "themes/ami/motion/README.md",
+      "destination": "docs/history/motion.md",
+      "source_sha256": "aa7a19842fd4a01c39a17be7ff8deb17e0c4986d95105a004e1b55af06ea85f2"
+    },
+    {
+      "source": "themes/ami/icons/README.md",
+      "destination": "docs/history/icons.md",
+      "source_sha256": "e0fb13e9f957d52b7889ad5f95d2f4c94431f0e2bd3ad1a17a9b54b8087f6916"
+    },
+    {
+      "source": "docs/images/ami-strong-material-review-20261026.json",
+      "destination": "docs/strong-material-review.json",
+      "source_sha256": "ec586a457501e10a62bf14480da8a1a51133af8985f142fe35e00e1e160a8b2d"
+    }
+  ],
+  "prepared_files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "50cc72f07f5b61d4c55d7730d4c764764ffd6c8bcdb47050f9cb08049270cbae"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "c767828b07fafbe6894e1177a971728db58a35e1a4dee736004482ab30d0ed95"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "805c664f53d9b59c3c3c0d70cf2d06dc09efd65986456e6e9d65786accd50b2e"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "LICENSES/CC-BY-SA-4.0.html",
+      "sha256": "d48546c6161cd2698445d184a859363a2436a6a3bcda655564730e3861e74a9e"
+    },
+    {
+      "path": "LICENSES/GPL-3.0-only.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "aa15ca5caa818fe05a49378180f174a75700e2882627904057f54ba80024ac7e"
+    },
+    {
+      "path": "README.md",
+      "sha256": "911879c2ad875092b5706822136720cf4317549e4ddd5e2149e128b360e1c6ab"
+    },
+    {
+      "path": "assets/provenance.json",
+      "sha256": "1290a1dffb7b755744f75240fe65300fc692c24dc9372bd1b14acfccd981cc14"
+    },
+    {
+      "path": "docs/branching.md",
+      "sha256": "52a9465d80a94ec291d885dbcb99f6a0de6c5d36474681fa8eefa11c6f5a7901"
+    },
+    {
+      "path": "docs/history/baseline.md",
+      "sha256": "1e3cf6ef89c1f75d44c6322f4b554acc31d5783a2f08243c4365d805f1bb6d8d"
+    },
+    {
+      "path": "docs/history/icons.md",
+      "sha256": "e0fb13e9f957d52b7889ad5f95d2f4c94431f0e2bd3ad1a17a9b54b8087f6916"
+    },
+    {
+      "path": "docs/history/motion.md",
+      "sha256": "aa7a19842fd4a01c39a17be7ff8deb17e0c4986d95105a004e1b55af06ea85f2"
+    },
+    {
+      "path": "docs/strong-material-review.json",
+      "sha256": "ec586a457501e10a62bf14480da8a1a51133af8985f142fe35e00e1e160a8b2d"
+    },
+    {
+      "path": "docs/task.md",
+      "sha256": "bb20dd49cad9277bda118f055eb7f52b719bb0707a3f3cf84496f58da3b45c9c"
+    },
+    {
+      "path": "source/paired-study/build.sh",
+      "sha256": "c964058a2749555b39e98af2ab424941cdc119a8d3d500d484b2040f4ac922d4"
+    },
+    {
+      "path": "source/paired-study/ilbm.py",
+      "sha256": "34055af2d6ce018ce46f1f89f99f29208f53d81e864ec59dd0a4e75d47956196"
+    },
+    {
+      "path": "source/paired-study/motion/build-material.sh",
+      "sha256": "175095dfbbd3862bb02a4916da7ee5176171ea4baa6d9a18dcdc3d5260820405"
+    },
+    {
+      "path": "source/paired-study/motion/build-menu.sh",
+      "sha256": "fa1611c17a431d44306af0cd546f9e47720cb85838ea5ec8a1431175c53fcd74"
+    },
+    {
+      "path": "source/paired-study/motion/build.sh",
+      "sha256": "c713c6669ecdb66560963b0bd40b2aeb5451270af92b1163bfd8e7591750347e"
+    },
+    {
+      "path": "source/paired-study/motion/prepare-material-pass.py",
+      "sha256": "137c8a81852431f673862a7b1335750a399f3314d86c1be1acf3bcd63407f39f"
+    },
+    {
+      "path": "source/paired-study/motion/prepare-menus.py",
+      "sha256": "9ef92e1e1d20012cd900c0e4a9944109f312565a8d6e51a9032550665699d1a4"
+    },
+    {
+      "path": "source/paired-study/motion/prepare-shelf.py",
+      "sha256": "f42d9ea678bfd2d28a8ca33a031a5aacb79d6f3c950c351138297ca24571c1e2"
+    },
+    {
+      "path": "source/paired-study/motion/prepare.py",
+      "sha256": "884405f7240a5e3e6801d10c3a992535b247d6eb1087b78789b1a6f2d32b2edb"
+    },
+    {
+      "path": "source/paired-study/motion/render-menu.c",
+      "sha256": "111ca3ef50d7ee5e744d95e62920fb91f49ff755cd154c7c32b15a7ade86612e"
+    },
+    {
+      "path": "source/paired-study/motion/render-shelf.c",
+      "sha256": "39c08593764704fec17d0f94a1d29a5135d99cc1f7dc200c1910ea6df3dce0dc"
+    },
+    {
+      "path": "source/paired-study/motion/render-wallpaper.c",
+      "sha256": "6f9d6f2cd1b1175088d9b189b2fa40932d726dc555cb5605e08d7972faa156a5"
+    },
+    {
+      "path": "source/paired-study/motion/render.c",
+      "sha256": "891bb88f006b5a19bca7144c09a8100349a9ae1de0e72f2124def85911969d70"
+    },
+    {
+      "path": "source/paired-study/motion/review-os4.sh",
+      "sha256": "4cd72bc4b0ee2a0e05e04446d7d466807e97b29a95322361acfbf636d27db252"
+    },
+    {
+      "path": "source/paired-study/motion/review.py",
+      "sha256": "8febcfa38b6c2f2793ffe3b173e32e2b99582228f0a451afb22820bd19eb28d4"
+    },
+    {
+      "path": "source/paired-study/prepare.py",
+      "sha256": "00bb0d521cff94635cc009089f9f7d165e56f293ce2f15717214c3da3d403ee3"
+    },
+    {
+      "path": "source/paired-study/render.c",
+      "sha256": "40d9441b00e6f47c5e09b6e7f14813d5d041007d8cd1265aed914334fa20842b"
+    },
+    {
+      "path": "wallpaper/build.sh",
+      "sha256": "01cae6f69c7677d4f1515906b2d587843c251d7982628f030a442ed9a198e381"
+    },
+    {
+      "path": "wallpaper/scene.png",
+      "sha256": "221d604889319be9e5fd726f28249a04fb094d67e211059919d9e5c1e9a79b73"
+    },
+    {
+      "path": "wallpaper/silver-liquid-ripple.svg",
+      "sha256": "89ea0233175b72eb70594649d678c517da85f9c805f78a6401bb8c58bd1fabd4"
+    },
+    {
+      "path": "wallpaper/silver-reflection.png",
+      "sha256": "72d8a169ae0da98df381227c20c5214e39f897561e0d5fbddcd58b273dddbf6f"
+    },
+    {
+      "path": "wallpaper/wallpaper.edc",
+      "sha256": "11215d3ec7ca282787e420bc16d461614b9481f580402ece1c5f6c0831f143dc"
+    }
+  ],
+  "private_required": false,
+  "native_rebuild_completed": false
+}

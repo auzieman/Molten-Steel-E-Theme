@@ -1,0 +1,38 @@
+{
+  "run": "0bd8ae7b-131b-4dbb-ab9f-e9f23751218f",
+  "checked_hashes": 45,
+  "native_menu": "PASS",
+  "wallpapers": {
+    "Ami-Ember": {
+      "motion_mean_rgb_difference": 5.127278806584362,
+      "peak": "frame-003.png",
+      "paused_exactly_frozen": true,
+      "resume_mean_rgb_difference": 3.986593364197531,
+      "benchmark": " animated percent_one_core=6.44 size=960x540\nBENCH paused percent_one_core=0.21 size=960x540\nPASS native wallpaper frame/pause/resume capture completed\n"
+    },
+    "Ami-Silver": {
+      "motion_mean_rgb_difference": 9.908299897119342,
+      "peak": "frame-005.png",
+      "paused_exactly_frozen": true,
+      "resume_mean_rgb_difference": 9.908299897119342,
+      "benchmark": " animated percent_one_core=2.17 size=960x540\nBENCH paused percent_one_core=0.20 size=960x540\nPASS native wallpaper frame/pause/resume capture completed\n"
+    }
+  },
+  "installed": [
+    {
+      "path": "/home/auzieman/.e/e/backgrounds/Fire-Wallpaper-Strong-Motion-20261026.edj",
+      "sha256": "f15ff0fdc736033fc7fd6788d4fe6fc64a295a2fa929552d1b5030546407bd4d"
+    },
+    {
+      "path": "/home/auzieman/.e/e/backgrounds/Molten-Steel-Wallpaper-Strong-Motion-20261026.edj",
+      "sha256": "1ff32c4301a199c5f19e642eb05a9fe8e3628f1b7fbd6b63fb2a3a0a79dff31c"
+    },
+    {
+      "path": "/home/auzieman/.elementary/themes/Molten-Steel-Theme-Liquid-Menu-20261026.edj",
+      "sha256": "2e011072475087e3311563427375e8e2601b5151d727806ee0cba005fe75ec4a"
+    }
+  ],
+  "visual_review": "Both wallpapers and liquid menu inspected",
+  "performance_scope": "960x540 offscreen wallpaper-only software fixture; excludes desktop compositor, windows and actual laptop GPU",
+  "menu_reused_from": "7891d7ac-1ecf-453f-b55d-357bbce57e3e"
+}
