@@ -22,4 +22,5 @@ acceptance follows from this extraction.
 
 Next: give the desktop generator a single-theme interface, resolve upstream
 permissions and validate through BKC before packaging full theme binaries.
-No GitHub remote or public release has been created.
+GitHub development source: https://github.com/auzieman/Molten-Steel-E-Theme.
+No binary release or release tag has been created.
